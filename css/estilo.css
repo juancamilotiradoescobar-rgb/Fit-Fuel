@@ -1,0 +1,193 @@
+
+
+.nav{
+    background-color: black;
+    
+}
+.nav li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.nav li a:hover{
+    color: #9FBF2C ;
+}
+.carrusel{
+    background-color: black;
+}
+#carouselExampleIndicators{
+    width: 400px;
+    margin: 0 auto;
+    
+}
+
+.carruselimg{
+    height: 900px;
+    object-fit: cover;
+}
+.tarjetasg{
+    padding: 20px;
+    background-color: #9FBF2C;
+}
+.card-body{
+    background-color:black ;
+    color: aliceblue;
+    
+   
+}
+.btn {
+    background-color: #9FBF2C;
+    color: black;
+    font-weight: bold;
+    border: solid #9FBF2C;
+}
+.btn:hover{
+    background-color: #CCD99C;
+    color: black;
+    border: solid #CCD99C;
+}
+.card{
+    border: black solid 5px;
+    border-radius: 15px;
+    
+
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+.msj-mot{
+    background-color: #CCD99C;
+    font-weight: bold;
+}
+.preguntas{
+    background-color: black;
+    color: #CCD99C;
+    text-align: center;
+}
+.accordion-item{
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+.accordion-button{
+    background-color: #CCD99C;
+    font-weight: bold;
+}
+.accordion-button:hover{
+    background-color: #9FBF2C;
+}
+.accordion-button:focus{
+    background-color: #9FBF2C;
+    border: #9FBF2C;
+    box-shadow:none
+}
+.ult{
+    padding-top: 5px;
+    background-color: black;
+}
+ .ult-sec{
+    
+    padding: 15px;
+    background-color: #F2F2F2;
+ }
+ .text-ult{
+    background: #CCD99C;
+background: linear-gradient(0deg, rgba(204, 217, 156, 1) 0%, rgba(242, 242, 242, 1) 100%);
+}
+ .text-ult h2{
+    color: #9FBF2C;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+ }
+ .text-ult p{
+    color: black;
+    font-size: 22px;
+    padding-top: 50px;
+ }
+
+.custom-footer {
+    background-color: #0a0a0a; /* Negro más profundo */
+    color: #F2F2F2;
+    padding: 80px 0 30px; /* Mucho más espacio arriba */
+    border-top: 4px solid #9FBF2C; /* Línea dorada más gruesa */
+}
+
+.footer-logo {
+    max-height: 70px;
+    margin-bottom: 15px;
+}
+
+.brand-text {
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #9FBF2C;
+    font-size: 0.9rem;
+}
+
+.divider-gold {
+    width: 50px;
+    height: 3px;
+    background-color:#9FBF2C;
+    margin-top: 10px;
+}
+
+.footer-title {
+    color: #9FBF2C;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: #F2F2F2;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.3s;
+    opacity: 0.8;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+    padding-left: 10px; /* Efecto de movimiento */
+    color: #9FBF2C;
+}
+
+.social-box a {
+    display: block;
+    color: #F2F2F2;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.social-box a:hover {
+    color: #9FBF2C;
+}
+
+.footer-bottom {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #222;
+    text-align: center;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    opacity: 0.6;
+}
+
+
