@@ -190,4 +190,63 @@ background: linear-gradient(0deg, rgba(204, 217, 156, 1) 0%, rgba(242, 242, 242,
     opacity: 0.6;
 }
 
+/* ----------------- estilos pag contacto ---------------- */
 
+.custom-input {
+    border: 2px solid #CCD99C; /* Verde oliva suave de la paleta */
+    background-color: #F2F2F2;
+    transition: 0.3s;
+}
+
+.custom-input:focus {
+    border-color: #9FBF2C; /* Verde vibrante al hacer clic */
+    box-shadow: 0 0 0 0.25rem rgba(159, 191, 44, 0.25);
+    background-color: #fff;
+    outline: none;
+}
+/* 
+-------------- estilos de la pag productos ---------- */
+
+/* Estilos para las tarjetas de producto Fit Fuel */
+.card-producto {
+    background-color: #1a1a1a !important; /* Un gris muy oscuro para separar del fondo negro */
+    transition: transform 0.3s ease, border 0.3s ease;
+    border: 1px solid #333 !important; /* Borde sutil inicial */
+}
+
+/* Efecto al pasar el mouse por la tarjeta */
+.card-producto:hover {
+    transform: translateY(-10px); /* Elevación técnica */
+    border: 1px solid #9FBF2C !important; /* El borde se ilumina con el verde vibrante */
+}
+
+/* Control de las imágenes de suplementos */
+.card-producto img {
+    transition: 0.3s;
+    filter: grayscale(20%); /* Estética minimalista */
+}
+
+.card-producto:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.05); /* Zoom suave al producto */
+}
+
+/* Personalización de los botones de compra */
+.card-producto .btn {
+    background-color: #9FBF2C !important; /* Verde vibrante de la paleta */
+    color: #0D0D0D !important; /* Texto en negro profundo */
+    border: none;
+    transition: 0.3s;
+}
+
+.card-producto .btn:hover {
+    background-color: #F2F2F2 !important; /* Cambio a blanco/gris claro al pulsar */
+    transform: scale(1.02);
+}
+
+/* Estilo para los botones de filtro superiores */
+.btn-outline-dark:hover {
+    background-color: #9FBF2C !important;
+    border-color: #9FBF2C !important;
+    color: #0D0D0D !important;
+}
